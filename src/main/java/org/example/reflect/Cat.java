@@ -29,7 +29,7 @@ public class Cat {
 
     @Override
     public String toString(){
-        return "cat {"+"name:"+name+"age:"+age+"}";
+        return "cat {"+"name:"+name   +   "   "+"age:"+age+"}";
     }
 
 
