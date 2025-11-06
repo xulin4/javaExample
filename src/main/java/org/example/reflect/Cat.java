@@ -1,13 +1,16 @@
 package org.example.reflect;
 
 public class Cat {
+    public static int a;
+    public static final String country="中国";
     private int age;
     private String name;
 
     private Cat(){
         System.out.println("执行无参构造函数");
     }
-    private Cat(int age,String name){
+    public Cat(int age,String name){
+        System.out.println("执行有参构造函数");
         this.age=age;
         this.name=name;
     }
