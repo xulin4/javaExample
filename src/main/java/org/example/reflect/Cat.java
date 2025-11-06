@@ -36,4 +36,17 @@ public class Cat {
     }
 
 
+    private void run(){
+        System.out.println("跑方法");
+    }
+    private void eat(){
+        System.out.println("吃方法");
+    }
+    private String eat(String name){
+        return "重写吃方法"+"猫儿最爱吃"+name;
+    }
+
+
+
+
 }
